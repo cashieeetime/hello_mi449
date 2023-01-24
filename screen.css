@@ -9,49 +9,50 @@ p {
     line-height: 2.0;
 }
 
-.cardleft {
-    border-radius: 20px;
-    background-color: #e0dede;
-    width: 325px;
-    margin-top: 50px; 
-    margin-left: 200px;
-    padding: 50px;
-    padding-top: 20px;
-    padding-bottom: 1px;
+.columns {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-shrink: 10;
 }
 
-.cardright {
+.rows {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-shrink: 10;
+}
+
+.card {
     border-radius: 20px;
     background-color: #e0dede;
-    width: 325px;
-    margin-top: 50px;
-    margin-left: 50px;
-    padding: 50px;
-    padding-top: 20px;
+    width: 30%;
+    margin: 4% 25%;
+    padding: 2%;
 }
 
 .headerimg {
-    width: 800px;
-    height: -200px;
-    margin-top: 10px;
-    margin-left: 200px;
+    width: 75%;
+    height: 25%;
+    max-width: 900px;
+    margin: 1% 25%;
     border-radius: 20px;
     align-items: center;
 }
 
-.headercolumns {
+.header {
     display: flex;
-    align-items: center;
+    flex-direction: row;
+    justify-content: left;
+    flex-wrap: wrap;
+    flex-shrink: 10;
 }
 
 .javacardimg {
     width: 415px;
-    margin-left: -11px;
-    margin-bottom: -20px;
+    margin: 4%;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
-}
-
-.columns {
-    display: flex;
 }
